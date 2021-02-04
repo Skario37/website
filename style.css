@@ -265,7 +265,8 @@ img {
 }
 
 .horizontal-scroll-wrapper > div p {
-  margin: 0px 10px;
+  margin: 0px 20vh;
+  width: 50vh;
 }
 
 .horizontal-scroll-wrapper img {
@@ -587,6 +588,7 @@ main #Activity {
   main #Portfolio div {
     margin: 0;
     width: 100%;
+    height: 100%;
   }
 
   main #Portfolio div > a {
