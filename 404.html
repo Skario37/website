@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+
+  <title>404</title>
+  <meta property="og:title" content="404">
+  <meta name="description" content="Page d'erreur">
+  <meta property="og:description" content="Page d'erreur">
+  <meta property="og:url" content="">
+  
+
+  <meta name="classification" content="Portfolio">
+  <meta name="author" content="Skario">
+  <meta name="robots" content="index, follow, all">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Skario">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body onload="switchBackgroundStart()">
+  <!-- HEADER -->
+  <header>
+    <a id="HeaderDropdown" class="dropdown-wrapper" href="#HeaderDropdown" onclick="handleHeaderDropdown(this)">
+      <img id="HeaderDropdownButton" class="icon dropdown-image" src="img/icon/dropdown.png" />
+    </a>
+    <a id="HeaderHome" href="index.html">
+      <img class="icon svg-invert" src="img/icon/home.svg" alt="" />
+      <p>Accueil</p>
+    </a>
+    <a id="HeaderPortfolio" href="portfolio/index.html">
+      <img class="icon svg-invert" src="img/icon/portfolio.svg" alt="" />
+      <p>Portfolio</p>
+    </a>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <div id="Error">
+      <div>
+        <h1><span class="span-error">4</span>0<span class="span-error">4</span></h1>
+        <h2>La page demandée n'existe pas.</h2>
+        <h2>Elle pourrait apparaître en y pensant très fort.</h2>
+        <h2>Enfin, peut-être dans ton esprit, pas ici.</h2>
+      </div>
+      <img class="img-error" src="img/404.png" alt="" ></img>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <a id="FooterDropdown" class="dropdown-wrapper" href="#FooterDropdown" onclick="handleFooterDropdown(this)">
+      <img id="FooterDropdownButton" class="icon dropdown-image" src="img/icon/dropdown.png" />
+    </a>
+    <a id="FooterLinkedIn" href="https://www.linkedin.com/in/kévin-leblanc-a278051a2">
+      <img class="logo" src="img/logos/linkedin/LI-In-Bug.png" alt="" />
+      <p>LinkedIn</p>
+    </a>
+    <a id="FooterTwitter" href="https://twitter.com/skariokevin">
+      <img class="logo" src="img/logos/twitter/Twitter-Logo.png" alt="" />
+      <p>Twitter</p>
+    </a>
+    <a id="FooterGithub" href="https://github.com/Skario37">
+      <img class="logo" src="img/logos/github/GitHub-Mark-Light-32px.png" alt="" />
+      <p>GitHub</p>
+    </a>
+  </footer>
+</body>
+</html>

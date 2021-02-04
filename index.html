@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+
+  <title>Skario</title>
+  <meta property="og:title" content="Skario">
+  <meta name="description" content="Site de Skario">
+  <meta property="og:description" content="Site de Skario">
+  <meta property="og:url" content="">
+  
+
+  <meta name="classification" content="Portfolio">
+  <meta name="author" content="Skario">
+  <meta name="robots" content="index, follow, all">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Skario">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body onload="switchBackgroundStart()">
+  <!-- HEADER -->
+  <header>
+    <a id="HeaderDropdown" class="dropdown-wrapper" href="#HeaderDropdown" onclick="handleHeaderDropdown(this)">
+      <img id="HeaderDropdownButton" class="icon dropdown-image" src="img/icon/dropdown.png" />
+    </a>
+    <a id="HeaderHome" href="index.html" aria-current >
+      <img class="icon svg-invert" src="img/icon/home.svg" alt="" />
+      <p>Accueil</p>
+    </a>
+    <a id="HeaderPortfolio" href="portfolio/index.html">
+      <img class="icon svg-invert" src="img/icon/portfolio.svg" alt="" />
+      <p>Portfolio</p>
+    </a>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <div id="Home">
+      <div>
+        <img src="img/reactions/angry-snorlax.png" class="img-reaction float-right" alt="" />
+        <p>
+          <h2>Bonjour !</h2>
+          Je m'appelle <b>Kévin Leblanc</b>, j'utilise principalement le pseudo Skario.
+          <br />
+          J'ai plutôt l'habitude qu'on m'appelle Kéké ou Ska.
+          <br />
+          Et attention si je ne trouve pas les accents à leur place&nbsp;: Je vais me fâcher ! (Non...&nbsp;(Oui)).
+        </p>
+      </div>
+      <div>
+        <img src="img/reactions/rotom-phone.png" class="float-left img-reaction" alt="" />
+        <div>
+          <p>
+            <b>Jeune développeur</b>, j'apprécie le très redouté <dfn>JavaScript</dfn> et de l'univers qui gravite autour comme TypeScript et vous connaissez la suite (je ne vais pas énumérer tous les frameworks, faut pas pousser mémé dans les &lt;div&gt;&nbsp;!).
+            <br />
+            Je suis également très attiré par le développement web mobile. Tout est plus simple quand tout est disponible avec cette petite boîte tout près de nous.
+          </p>
+        </div>
+      </div>
+      <div>
+        <img src="img/reactions/black-ace.png" class="float-right img-reaction" alt="" />
+        <p>
+          Vous l'aurez compris, déformeur professionnel d'expressions en tout genre, j'aime également associer mon pseudo avec des noms de Pokémon. Par exemple Skario&nbsp;+&nbsp;Pikachu donnera PiSkachu, ou bien prenons Skario&nbsp;+&nbsp;Salamèche qui donnera Skalamèche. Vous comprenez pourquoi les personnes que je côtoie en ligne préfèrent m'appeler Ska.
+          <br />
+          Revenons à ce site, je l'ai fait principalement pour moi en tant que portfolio. Il n'est pas impossible que je l'améliore ou que je le modifie de temps en temps.
+          <br />
+          Ce site regroupe donc mes projets, mes passions et découvertes&nbsp;!
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <a id="FooterDropdown" class="dropdown-wrapper" href="#FooterDropdown" onclick="handleFooterDropdown(this)">
+      <img id="FooterDropdownButton" class="icon dropdown-image" src="img/icon/dropdown.png" />
+    </a>
+    <a id="FooterLinkedIn" href="https://www.linkedin.com/in/kévin-leblanc-a278051a2">
+      <img class="logo" src="img/logos/linkedin/LI-In-Bug.png" alt="" />
+      <p>LinkedIn</p>
+    </a>
+    <a id="FooterTwitter" href="https://twitter.com/skariokevin">
+      <img class="logo" src="img/logos/twitter/Twitter-Logo.png" alt="" />
+      <p>Twitter</p>
+    </a>
+    <a id="FooterGithub" href="https://github.com/Skario37">
+      <img class="logo" src="img/logos/github/GitHub-Mark-Light-32px.png" alt="" />
+      <p>GitHub</p>
+    </a>
+  </footer>
+</body>
+</html>
