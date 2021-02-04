@@ -250,6 +250,7 @@ img {
   white-space: nowrap;
   scroll-snap-type: x mandatory;
   height: 100%;
+  width: 100%;
 }
 
 .horizontal-scroll-wrapper > div {
