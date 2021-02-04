@@ -367,7 +367,7 @@ var bip_isOn = false;
 const switchBackground = () => {
   const images = bip.patterns.images;
   var index = Math.floor(Math.random() * images.length);
-  document.body.style.backgroundImage = `url('/${bip.patterns.path}${bip.patterns.images[index]}')`;
+  document.body.style.backgroundImage = `url('${bip.patterns.path}${bip.patterns.images[index]}')`;
 }
 
 const switchBackgroundStart = () => {
