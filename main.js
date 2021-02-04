@@ -370,12 +370,12 @@ const switchBackground = (tree) => {
   document.body.style.backgroundImage = `url('${tree}${bip.patterns.path}${bip.patterns.images[index]}')`;
 }
 
-const switchBackgroundStart = () => {
+const switchBackgroundStart = (tree) => {
   if(bip_isOn === false){
     bip_isOn = true;
 
     // init a background
-    switchBackground();
+    switchBackground(tree);
 
     // init counter
     counterStart(0, 10 * 60 * 1000, switchBackground); // Give callback to switch backgrounds
