@@ -199,15 +199,13 @@ img {
 }
 
 .dropdown-image.dropped,
-.dropdown-wrapper:hover .dropdown-image,
-.dropdown-wrapper:focus .dropdown-image {
+.dropdown-wrapper:hover .dropdown-image {
   transition-duration: 0.8s;
   transform: rotate(360deg);
   border-color: var(--color-primary-dropdown);
 }
 
-.dropdown-wrapper:hover .dropdown-image.dropped,
-.dropdown-wrapper:focus .dropdown-image.dropped {
+.dropdown-wrapper:hover .dropdown-image.dropped {
   transition-duration: 0.8s;
   transform: rotate(180deg);
   border-color: var(--color-secondary-dropdown);
@@ -408,6 +406,10 @@ main #Home {
   flex-direction: column;
   justify-content: space-around;
   height: 100%;
+}
+
+main #Home > div {
+  margin: 20px 0;
 }
 
 /* EOF HOME */
