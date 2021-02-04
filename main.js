@@ -363,16 +363,18 @@ var bip = {
 }
 
 var bip_isOn = false;
+var bip_tree = '';
 
-const switchBackground = (tree) => {
+const switchBackground = () => {
   const images = bip.patterns.images;
   var index = Math.floor(Math.random() * images.length);
-  document.body.style.backgroundImage = `url('${tree}${bip.patterns.path}${bip.patterns.images[index]}')`;
+  document.body.style.backgroundImage = `url('${bip_tree}${bip.patterns.path}${bip.patterns.images[index]}')`;
 }
 
 const switchBackgroundStart = (tree) => {
   if(bip_isOn === false){
     bip_isOn = true;
+    bip_tree = tree
 
     // init a background
     switchBackground(tree);
